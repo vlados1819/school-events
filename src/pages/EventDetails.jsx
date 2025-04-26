@@ -8,7 +8,7 @@ const EventDetails = () => {
   const eventId = parseInt(id, 10); 
   const { events, setEvents } = useContext(EventContext);
   const event = events.find(event => event.id === eventId);
-
+  document.title =  event.title;
   return (
     <main className="event-detail">
       <div className="event-info">

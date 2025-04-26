@@ -1,4 +1,5 @@
 const Contacts = () => {
+  document.title =  "Контакты";
   return (
     <main className="contacts">
       <h2 className="contacts-title">Контакты</h2>

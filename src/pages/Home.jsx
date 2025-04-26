@@ -12,6 +12,7 @@ const Home = () => {
         alert('Спасибо за подписку!');
         setEmail('');
     };
+    document.title = "Мероприятия школы №9";
   return (
     <main>
         <div className="hero-section"> 

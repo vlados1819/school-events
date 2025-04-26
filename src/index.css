@@ -386,7 +386,8 @@ Event Details Page
     max-width: 1200px;
     margin: auto;
 }
-.event-info h2{font-size: 3.5rem;}
+.event-info h2{font-size: 3.5rem;
+    background-color: #ffffffc8;}
 .event-category { 
     font-size: 1.7rem; color: #333333; font-weight: 700;
     background-color: #fff93d;
@@ -462,6 +463,34 @@ Not Found Page
 
 /**/
 
+@media (max-width: 1200px) {
+    .hero-section {
+        padding-top: 170px;
+    }
+    .home-subscribe {
+        margin: auto;
+    }
+    .event-info {
+        padding-top: 2.5rem;
+    }
+    .event-info h2 {
+        display: inline-block;
+    }
+
+    .event-image {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .event-image {
+        max-width: 450px;
+    }
+    .events h2, .contacts h2, .about h2, .admin h1{
+        padding-top: 40px;
+    }
+}
+
 @media (max-width: 725px) {
     .shape1, .shape2,.shape3, .shape4, 
     .shape5, .shape6, .shape7 {
@@ -475,6 +504,10 @@ Not Found Page
         flex-wrap: wrap;    
     }
 
+    .hero-section  {
+        min-height: 70dvh;
+    } 
+
     .event-card {
         flex-direction: column;
         height: auto;
@@ -487,7 +520,7 @@ Not Found Page
     .event-card .card-content {
         width: 100%;
     }
-    .header.hide {transform: none;}
+    .header.hide {transform: translateY(-200px);}
     .header nav {
         width: 98%;
         
@@ -530,6 +563,13 @@ Not Found Page
     .footer .nav-link a {
         font-size: 1.5rem;
     }
+    .event-info h2 {
+        font-size: 3rem;
+    }
+
+    .event-image {
+        max-width: 400px;
+    }
 }
 
 @media (max-width: 550px) {
@@ -537,8 +577,19 @@ Not Found Page
     .shape5, .shape6, .shape7 {
      opacity: .1;   
     }
+    .hero-section {
+        padding-top: 120px;
+        font-size: 2rem;
+    }
     .about .section-image {
         max-width: 400px;
+    }
+    .event-info h2 {
+        font-size: 3rem;
+    }
+
+    .event-image {
+        max-width: 350px;
     }
 }
 

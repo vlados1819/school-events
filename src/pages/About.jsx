@@ -46,7 +46,7 @@ const About = () => {
       
     }
   ];
-
+  document.title =  "О школе";
   return (
     <main className="about">
       <h2 className="about-title">О школе №9</h2>

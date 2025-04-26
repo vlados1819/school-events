@@ -8,7 +8,7 @@ const Header = () => {
 
   const handleScroll = () => {
     const currentScroll = window.scrollY;
-    if (currentScroll > lastScroll && currentScroll > 200) {
+    if (currentScroll > lastScroll) {
       setIsHidden(true);
     } else if (currentScroll < lastScroll) {
       setIsHidden(false);
